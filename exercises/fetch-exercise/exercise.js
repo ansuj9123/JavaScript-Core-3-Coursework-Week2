@@ -25,6 +25,9 @@ fetch("https://codeyourfuture.herokuapp.com/api/greetings")
   
   paragraph.innerHTML = greeting
  })
+ .catch((error) => {
+    console.log(error.message);
+ })
  
 
 
